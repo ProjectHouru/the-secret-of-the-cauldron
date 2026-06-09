@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameStyles.uss?fileID=7433441132597879392&amp;guid=cea95f8bb8a587948b07ac8564468ffc&amp;type=3#GameStyles" />
+    <ui:VisualElement name="OverflowPanel" class="overflow-panel">
+        <ui:VisualElement name="CenterContrainer" class="center-container">
+            <ui:Label tabindex="-1" text="Тайна  котла" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuTitle" class="main-menu-title" />
+            <ui:VisualElement name="MenuItemsContainer" class="main-menu-items" style="flex-grow: 0; justify-content: space-between; padding-top: 0; margin-top: 100px; height: 400px; visibility: visible; display: flex;">
+                <ui:Slider label="Громкость" high-value="100" name="VolumeSlider" inverted="false" picking-mode="Ignore" style="margin-top: 0; margin-right: 0; margin-bottom: 30px; margin-left: 0; -unity-font-definition: url(&quot;project://database/Assets/Fonts/morana%20SDF.asset?fileID=11400000&amp;guid=72ea64133d9f3c543ba7aae38001a824&amp;type=2#morana SDF&quot;); font-size: 30px; color: rgb(255, 255, 255); width: 350px; position: relative; top: auto; left: auto;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="StartButton" class="main-menu-button" style="overflow: visible;">
+                    <ui:Label tabindex="-1" text="Начать игру" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButtonLabel" class="main-menu-button-label" />
+                </ui:Button>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="AuthorsButton" class="main-menu-button" style="visibility: visible; display: flex; overflow: visible;">
+                    <ui:Label tabindex="-1" text="Авторы" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButtonLabel" class="main-menu-button-label" />
+                </ui:Button>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="ExitButton" class="main-menu-button" style="display: flex; overflow: visible;">
+                    <ui:Label tabindex="-1" text="Выход" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButtonLabel" class="main-menu-button-label" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="MenuPanel" class="main-menu-panel" style="display: none; padding-top: 0; margin-top: 100px; visibility: visible;">
+                <ui:Label tabindex="-1" text="Авторы" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuPanelTitle" class="main-menu-panel-title" />
+                <ui:VisualElement name="MenuPanelText" class="main-menu-panel-text" style="display: flex;">
+                    <ui:Label tabindex="-1" text="Боровикова Анастасия&#10;Гилевский Александр&#10;Истомин Евгений&#10;Ковтун Денис&#10;Мартынов Иван" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuPanelTextLeft" class="main-menu-panel-text-left" />
+                    <ui:Label tabindex="-1" text="Text right" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuPanelTextRight" class="main-menu-panel-text-right" style="display: none;" />
+                </ui:VisualElement>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="BackToMenuButton" class="main-menu-button">
+                    <ui:Label tabindex="-1" text="Назад" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButtonLabel" class="main-menu-button-label" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Blocker" picking-mode="Ignore" style="opacity: 0; align-items: center; justify-content: center; align-self: center; display: flex;">
+        <ui:Label tabindex="-1" text="Загрузка..." parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="false" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/morana%20SDF.asset?fileID=11400000&amp;guid=72ea64133d9f3c543ba7aae38001a824&amp;type=2#morana SDF&quot;); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 100px; display: flex; visibility: hidden;" />
+    </ui:VisualElement>
+</ui:UXML>
