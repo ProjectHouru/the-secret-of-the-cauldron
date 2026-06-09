@@ -46,7 +46,7 @@ Responsibilities:
 - Alexander Gilevsky - Programmer, Animator
 - Evgeny Istomin - Sound Designer, Composer
 - Denis Kovtun - Programmer, Game Designer, Narrative Designer
-- Ivan Martynov - Game Designer, Level Designer, VFX Designer
+- Ivan Korolev - Game Designer, Level Designer, VFX Designer
 
 ## Controls
 
