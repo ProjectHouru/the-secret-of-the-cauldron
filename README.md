@@ -2,6 +2,17 @@
 
 A 2D adventure game created during a game jam using Unity.
 
+## Play Online
+
+🎮 **WebGL Build:**  
+https://alexgilevskiy.itch.io/the-secret-of-the-cauldron
+
+## About
+
+Developed by a team of 5 participants during a game development jam.
+
+The Secret of the Cauldron is a story-driven adventure game where players explore mysterious locations, interact with NPCs, collect quest items, battle enemies, and uncover the secrets surrounding an ancient magical cauldron.
+
 ## Overview
 
 The Secret of the Cauldron is a story-driven adventure game where the player explores mysterious locations, completes quests, collects ingredients, and helps an eccentric old witch brew a magical potion.
@@ -73,4 +84,11 @@ Completed game jam project.
 
 ## Links
 
-- GitHub Repository: https://github.com/ProjectHouru/the-secret-of-the-cauldron
+🎮 Play Online (WebGL):
+https://alexgilevskiy.itch.io/the-secret-of-the-cauldron
+
+🎨 ArtStation:
+https://www.artstation.com/projecthouru
+
+💻 GitHub:
+https://github.com/ProjectHouru/the-secret-of-the-cauldron
