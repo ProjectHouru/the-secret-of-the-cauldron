@@ -7,6 +7,10 @@ A 2D adventure game created during a game jam using Unity.
 🎮 **WebGL Build:**  
 https://alexgilevskiy.itch.io/the-secret-of-the-cauldron
 
+## Gameplay
+
+![Gameplay](Media/Gameplay.gif)
+
 ## About
 
 Developed by a team of 5 participants during a game development jam.
